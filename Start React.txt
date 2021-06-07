@@ -1,0 +1,19 @@
+referred from https://www.youtube.com/watch?v=4UZrsTqkcW4&t=1504s
+
+-go to the folder where you want to save the files 
+-open cmd there, write "npm init"  and write all the necessary things, that will create package.json in the folder
+
+
+To install packages 
+- go to the folder, open cmd, write "npm install <package-name>"
+- it will create node_modules folder and inside that folder will be the package(dependecies), and that package name will also be added in the 
+package.json -> dependecies 
+
+
+Start building with react from create-react-app by facbook in github(https://github.com/facebook/create-react-app)
+- install latest version of create-react-app by writing "npm install -g create-react-app", we recommend you uninstall the package using "npm uninstall -g create-react-app" or "yarn global remove create-react-app" to ensure that npx always uses the latest version.
+- go to the folder where you want the files to be and open cmd, write "npx create-react-app <app-name>" (it will take some time to creat the files)
+- go inside that file and write "npm start"(will start a local server)
+- from "src" folder you can delete everthing except index.js file
+(while writing npm start if you get an error, try typin "npm install" that will install all the dependecies(pakages) required that are writting in packages.json file)
+- after completing the project yo ucan write "npm run build" will crate a build forder, and upload that build forder in anywhere to host the site 
