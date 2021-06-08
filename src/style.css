@@ -5,23 +5,49 @@
   letter-spacing: 1px;
 }
 body {
-  background-color: black;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin: 2rem auto;
+  height: 100vh;
 }
 .booklistclass {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
+  margin: 0 2rem;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .bookclass {
-  width: auto;
+  width: 100%;
   height: 100%;
   margin: 1rem auto;
+  padding: 1.5rem 1.5rem 0;
   text-align: center;
+  background-color: rgb(129, 129, 129);
+  border-radius: 2em;
 }
-p {
+
+img {
+  height: 250px;
+  width: 250px;
+}
+h1 {
   margin: 0.4rem;
-  color: rgb(90, 175, 255);
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 18px;
+}
+.grasscolor {
+  color: rgb(10, 131, 71);
+}
+.firecolor {
+  color: rgb(177, 65, 1);
+}
+.watercolor {
+  color: rgb(0, 83, 131);
 }
